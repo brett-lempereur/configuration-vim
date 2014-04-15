@@ -2,4 +2,19 @@
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
 	ignore = dirty
-
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+    ignore = dirty
+[submodule "bundle/unite"]
+	path = bundle/unite
+    url = https://github.com/Shougo/unite.vim
+    ignore = dirty
+[submodule "bundle/vim-hemisu"]
+	path = bundle/vim-hemisu
+    url = https://github.com/noahfrederick/vim-hemisu
+    ignore = dirty
+[submodule "bundle/vim-unimpaired"]
+	path = bundle/vim-unimpaired
+    url = https://github.com/tpope/vim-unimpaired
+    ignore = dirty
