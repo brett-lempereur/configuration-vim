@@ -18,6 +18,9 @@ call pathogen#helptags()
 colorscheme solarized
 
 " Status line.
+let g:airline#extensions#default#layout = [['a', 'b', 'c'], ['x', 'z']]
+let g:airline_left_sep=''
+let g:airline_right_sep=''
 set laststatus=2
 
 " Syntax highlighting.
@@ -25,8 +28,13 @@ syntax on
 
 " Window decorations and size.
 if has("gui_running")
+    " Common graphical interface settings.
     set guioptions=ecmg
-    set lines=45 columns=100
+    set lines=47 columns=100
+    " Platform dependent settings.
+    if has("mac")
+        set guifont=Monaco:h11
+    endif
 endif
 
 ""
