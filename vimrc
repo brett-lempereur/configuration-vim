@@ -15,13 +15,17 @@ call pathogen#helptags()
 ""
 
 " Color scheme.
-colorscheme hemisu
+colorscheme solarized
+
+" Status line.
+set laststatus=2
 
 " Syntax highlighting.
 syntax on
 
-" Window size.
+" Window decorations and size.
 if has("gui_running")
+    set guioptions=ecmg
     set lines=45 columns=100
 endif
 

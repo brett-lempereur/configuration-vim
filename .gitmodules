@@ -18,3 +18,7 @@
 	path = bundle/vim-unimpaired
     url = https://github.com/tpope/vim-unimpaired
     ignore = dirty
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/bling/vim-airline
+    ignore = dirty
