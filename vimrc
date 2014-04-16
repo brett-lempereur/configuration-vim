@@ -18,13 +18,16 @@ call pathogen#helptags()
 colorscheme solarized
 
 " Status line.
+set laststatus=2
+set showcmd
+
+" Status line extension.
 let g:airline#extensions#default#layout = [['a', 'b', 'c'], ['x', 'z']]
 let g:airline_left_sep=''
 let g:airline_right_sep=''
-set laststatus=2
 
 " Syntax highlighting.
-syntax on
+syntax enable
 
 " Window decorations and size.
 if has("gui_running")
@@ -44,6 +47,9 @@ endif
 " Alarms.
 set noerrorbells
 set novisualbell
+
+" Automatic file reading.
+set autoread
 
 " Backspace and cursor movement.
 set backspace=eol,start,indent
@@ -67,6 +73,7 @@ filetype indent on
 " Indentation.
 set cindent
 set expandtab
+set shiftround
 set shiftwidth=4
 set smarttab
 set softtabstop=4
@@ -99,6 +106,11 @@ set wildignore=*.o,*~,*.pyc
 au FileType python setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
 au FileType python setlocal textwidth=79 formatoptions+=t
 au FileType python setlocal fileformat=unix encoding=utf-8
+
+" Go buffer configuration.
+au FileType go setlocal noexpandtab shiftwidth=4 tabstop=4
+au FileType go setlocal textwidth=99 formatoptions+=t
+au FileType go setlocal fileformat=unix encoding=utf-8
 
 ""
 "" Bindings
