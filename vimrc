@@ -14,9 +14,6 @@ call pathogen#helptags()
 "" Appearance
 ""
 
-" Color scheme.
-colorscheme solarized
-
 " Status line.
 set laststatus=2
 set showcmd
@@ -29,8 +26,10 @@ let g:airline_right_sep=''
 " Syntax highlighting.
 syntax enable
 
-" Window decorations and size.
+" Graphical user interface and console specific configuration.
 if has("gui_running")
+    " Colour scheme.
+    colorscheme solarized
     " Common graphical interface settings.
     set guioptions=ecmg
     set lines=47 columns=100
@@ -38,6 +37,8 @@ if has("gui_running")
     if has("mac")
         set guifont=Monaco:h11
     endif
+else
+    colorscheme default    
 endif
 
 ""
