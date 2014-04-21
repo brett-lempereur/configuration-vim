@@ -30,3 +30,7 @@
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
     ignore = dirty
+[submodule "bundle/unite-outline"]
+	path = bundle/unite-outline
+	url = https://github.com/Shougo/unite-outline
+    ignore = dirty

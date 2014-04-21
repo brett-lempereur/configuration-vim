@@ -121,8 +121,9 @@ au FileType go setlocal fileformat=unix encoding=utf-8
 let mapleader=","
 
 " Buffer and file navigation.
-map <leader>b :Unite buffer<cr>
-map <leader>o :Unite file<cr>
+map <leader>b :Unite -start-insert -winheight=10 -buffer-name=buffers buffer<cr>
+map <leader>f :Unite -start-insert -winheight=15 -buffer-name=files file<cr>
+map <leader>o :Unite -start-insert -winheight=15 -buffer-name=outline -auto-preview outline<cr>
 
 " Window navigation.
 map <c-j> <c-w>j
