@@ -125,6 +125,11 @@ map <leader>b :Unite -start-insert -winheight=10 -buffer-name=buffers buffer<cr>
 map <leader>f :Unite -start-insert -winheight=15 -buffer-name=files file<cr>
 map <leader>o :Unite -start-insert -winheight=15 -buffer-name=outline -auto-preview outline<cr>
 
+" Revision control.
+map <leader>gs :Gstatus<cr>
+map <leader>gc :Gcommit<cr>
+map <leader>gd :Gdiff<cr>
+
 " Window navigation.
 map <c-j> <c-w>j
 map <c-k> <c-w>k
