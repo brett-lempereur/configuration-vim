@@ -26,3 +26,7 @@
 	path = bundle/vim-golang
 	url = https://github.com/jnwhiteh/vim-golang
     ignore = dirty
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+    ignore = dirty

@@ -117,6 +117,13 @@ au FileType go setlocal fileformat=unix encoding=utf-8
 "" Bindings
 ""
 
+" Use an alternative leader character.
+let mapleader=","
+
+" Buffer and file navigation.
+map <leader>b :Unite buffer<cr>
+map <leader>o :Unite file<cr>
+
 " Window navigation.
 map <c-j> <c-w>j
 map <c-k> <c-w>k
