@@ -106,12 +106,17 @@ set wildignore=*.o,*~,*.pyc
 " Python buffer configuration.
 au FileType python setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
 au FileType python setlocal textwidth=79 formatoptions+=t
-au FileType python setlocal fileformat=unix encoding=utf-8
+au FileType python setlocal fileformat=unix encoding=utf-8 fileencoding=utf-8
 
 " Go buffer configuration.
 au FileType go setlocal noexpandtab shiftwidth=4 tabstop=4
 au FileType go setlocal textwidth=99 formatoptions+=t
-au FileType go setlocal fileformat=unix encoding=utf-8
+au FileType go setlocal fileformat=unix encoding=utf-8 fileencoding=utf-8
+
+" C++ buffer configuration.
+au FileType cpp setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
+au FileType cpp setlocal textwidth=79 formatoptions+=t
+au FileType cpp setlocal fileformat=unix encoding=latin1 fileencoding=latin1
 
 ""
 "" Bindings
