@@ -50,3 +50,11 @@
 	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
     ignore = dirty
+[submodule "bundle/vim-arduino-ino"]
+	path = bundle/vim-arduino-ino
+	url = https://github.com/jplaut/vim-arduino-ino
+    ignore = dirty
+[submodule "bundle/vim-arduino-syntax"]
+	path = bundle/vim-arduino-syntax
+	url = https://github.com/sudar/vim-arduino-syntax
+    ignore = dirty
