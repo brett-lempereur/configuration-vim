@@ -118,6 +118,11 @@ au FileType cpp setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
 au FileType cpp setlocal textwidth=79 formatoptions+=t
 au FileType cpp setlocal fileformat=unix encoding=latin1 fileencoding=latin1
 
+" Arduino buffer configuration.
+au FileType arduino setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
+au FileType arduino setlocal textwidth=79 formatoptions+=t
+au FileType arduino setlocal fileformat=unix encoding=latin1 fileencoding=latin1
+
 ""
 "" Bindings
 ""
@@ -140,4 +145,8 @@ map <c-j> <c-w>j
 map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
+
+" Automatic code formatting.
+au FileType arduino,c,cpp nnoremap <buffer><Leader>cf :<C-u>ClangFormat<CR>
+au FileType arduino,c,cpp vnoremap <buffer><Leader>cf :ClangFormat<CR>
 

@@ -58,3 +58,7 @@
 	path = bundle/vim-arduino-syntax
 	url = https://github.com/sudar/vim-arduino-syntax
     ignore = dirty
+[submodule "bundle/vim-clang-format"]
+	path = bundle/vim-clang-format
+	url = https://github.com/rhysd/vim-clang-format
+    ignore = dirty
