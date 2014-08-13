@@ -22,6 +22,7 @@ set showcmd
 let g:airline#extensions#default#layout = [['a', 'b', 'c'], ['x', 'z']]
 let g:airline_left_sep=''
 let g:airline_right_sep=''
+let g:airline_theme = 'hemisu_airline'
 
 " Syntax highlighting.
 syntax enable
@@ -29,7 +30,7 @@ syntax enable
 " Graphical user interface and console specific configuration.
 if has("gui_running")
     " Colour scheme.
-    colorscheme solarized
+    colorscheme hemisu
     " Common graphical interface settings.
     set guioptions=ecmg
     set lines=47 columns=100
@@ -38,7 +39,7 @@ if has("gui_running")
         set guifont=Monaco:h11
     endif
 else
-    colorscheme default    
+    colorscheme default
 endif
 
 ""
@@ -122,6 +123,11 @@ au FileType cpp setlocal fileformat=unix encoding=latin1 fileencoding=latin1
 au FileType arduino setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
 au FileType arduino setlocal textwidth=79 formatoptions+=t
 au FileType arduino setlocal fileformat=unix encoding=latin1 fileencoding=latin1
+
+" Latex buffer configuration.
+au FileType latex setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
+au FileType latex setlocal textwidth=79 formatoptions=aw2tq
+au FileType latex setlocal fileformat=unix encoding=latin1 fileencoding=latin1
 
 ""
 "" Bindings

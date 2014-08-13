@@ -62,3 +62,8 @@
 	path = bundle/vim-clang-format
 	url = https://github.com/rhysd/vim-clang-format
     ignore = dirty
+[submodule "bundle/vim-hemisu-airline"]
+	path = bundle/vim-hemisu-airline
+	url = https://github.com/kokakolako/vim-hemisu-airline.git
+    ignore = dirty
+
