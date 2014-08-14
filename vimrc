@@ -129,6 +129,12 @@ au FileType latex setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
 au FileType latex setlocal textwidth=79 formatoptions=aw2tq
 au FileType latex setlocal fileformat=unix encoding=latin1 fileencoding=latin1
 
+" HTML buffer configuration.
+au FileType html setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
+au FileType html setlocal textwidth=99 formatoptions+=t
+au FileType html setlocal fileformat=unix encoding=utf-8 fileencoding=utf-8
+au FileType html setlocal foldmethod=marker foldmarker="{{{,}}}"
+
 ""
 "" Bindings
 ""
