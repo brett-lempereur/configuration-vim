@@ -1,72 +1,64 @@
 [submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized
-	ignore = dirty
+    path = bundle/vim-colors-solarized
+    url = https://github.com/altercation/vim-colors-solarized
+    ignore = dirty
 [submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
+    path = bundle/syntastic
+    url = https://github.com/scrooloose/syntastic.git
     ignore = dirty
 [submodule "bundle/unite"]
-	path = bundle/unite
+    path = bundle/unite
     url = https://github.com/Shougo/unite.vim
     ignore = dirty
-[submodule "bundle/vim-hemisu"]
-	path = bundle/vim-hemisu
-    url = https://github.com/noahfrederick/vim-hemisu
-    ignore = dirty
 [submodule "bundle/vim-unimpaired"]
-	path = bundle/vim-unimpaired
+    path = bundle/vim-unimpaired
     url = https://github.com/tpope/vim-unimpaired
     ignore = dirty
 [submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
-	url = https://github.com/bling/vim-airline
+    path = bundle/vim-airline
+    url = https://github.com/bling/vim-airline
     ignore = dirty
 [submodule "bundle/vim-golang"]
-	path = bundle/vim-golang
-	url = https://github.com/jnwhiteh/vim-golang
+    path = bundle/vim-golang
+    url = https://github.com/jnwhiteh/vim-golang
     ignore = dirty
 [submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive
+    path = bundle/vim-fugitive
+    url = https://github.com/tpope/vim-fugitive
     ignore = dirty
 [submodule "bundle/unite-outline"]
-	path = bundle/unite-outline
-	url = https://github.com/Shougo/unite-outline
+    path = bundle/unite-outline
+    url = https://github.com/Shougo/unite-outline
     ignore = dirty
 [submodule "bundle/vim-snipmate"]
-	path = bundle/vim-snipmate
-	url = https://github.com/garbas/vim-snipmate
+    path = bundle/vim-snipmate
+    url = https://github.com/garbas/vim-snipmate
     ignore = dirty
 [submodule "bundle/tlib_vim"]
-	path = bundle/tlib_vim
-	url = https://github.com/tomtom/tlib_vim.git
+    path = bundle/tlib_vim
+    url = https://github.com/tomtom/tlib_vim.git
     ignore = dirty
 [submodule "bundle/vim-addon-mw-utils"]
-	path = bundle/vim-addon-mw-utils
-	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+    path = bundle/vim-addon-mw-utils
+    url = https://github.com/MarcWeber/vim-addon-mw-utils.git
     ignore = dirty
 [submodule "bundle/vim-snippets"]
-	path = bundle/vim-snippets
-	url = https://github.com/honza/vim-snippets.git
+    path = bundle/vim-snippets
+    url = https://github.com/honza/vim-snippets.git
     ignore = dirty
 [submodule "bundle/vim-arduino-ino"]
-	path = bundle/vim-arduino-ino
-	url = https://github.com/jplaut/vim-arduino-ino
+    path = bundle/vim-arduino-ino
+    url = https://github.com/jplaut/vim-arduino-ino
     ignore = dirty
 [submodule "bundle/vim-arduino-syntax"]
-	path = bundle/vim-arduino-syntax
-	url = https://github.com/sudar/vim-arduino-syntax
+    path = bundle/vim-arduino-syntax
+    url = https://github.com/sudar/vim-arduino-syntax
     ignore = dirty
 [submodule "bundle/vim-clang-format"]
-	path = bundle/vim-clang-format
-	url = https://github.com/rhysd/vim-clang-format
-    ignore = dirty
-[submodule "bundle/vim-hemisu-airline"]
-	path = bundle/vim-hemisu-airline
-	url = https://github.com/kokakolako/vim-hemisu-airline.git
+    path = bundle/vim-clang-format
+    url = https://github.com/rhysd/vim-clang-format
     ignore = dirty
 [submodule "bundle/html5.vim"]
-	path = bundle/html5.vim
-	url = https://github.com/othree/html5.vim
+    path = bundle/html5.vim
+    url = https://github.com/othree/html5.vim
     ignore = dirty

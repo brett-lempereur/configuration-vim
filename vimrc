@@ -22,7 +22,6 @@ set showcmd
 let g:airline#extensions#default#layout = [['a', 'b', 'c'], ['x', 'z']]
 let g:airline_left_sep=''
 let g:airline_right_sep=''
-let g:airline_theme = 'hemisu_airline'
 
 " Syntax highlighting.
 syntax enable
@@ -30,7 +29,7 @@ syntax enable
 " Graphical user interface and console specific configuration.
 if has("gui_running")
     " Colour scheme.
-    colorscheme hemisu
+    colorscheme solarized
     " Common graphical interface settings.
     set guioptions=ecmg
     set lines=47 columns=100
