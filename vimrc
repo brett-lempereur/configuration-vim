@@ -161,3 +161,6 @@ map <c-h> <c-w>h
 au FileType arduino,c,cpp nnoremap <buffer><Leader>cf :<C-u>ClangFormat<CR>
 au FileType arduino,c,cpp vnoremap <buffer><Leader>cf :ClangFormat<CR>
 
+" Documentation
+map <silent> <leader>d <Plug>DashSearch
+
