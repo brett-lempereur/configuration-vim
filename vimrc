@@ -30,13 +30,16 @@ syntax enable
 if has("gui_running")
     " Colour scheme.
     colorscheme solarized
+    set background=light
     " Common graphical interface settings.
     set guioptions=ecmg
     set lines=47 columns=100
     " Platform dependent settings.
     if has("mac")
         set guifont=Monaco:h11
-    endif
+    elseif has("windows")
+        set guifont=Consolas:h10
+    end
 else
     colorscheme default
 endif
