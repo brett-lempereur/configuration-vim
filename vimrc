@@ -37,7 +37,9 @@ if has("gui_running")
     " Platform dependent settings.
     if has("mac")
         set guifont=Monaco:h11
-    elseif has("windows")
+    elseif has("linux")
+        set guifont=Droid\ Sans\ Mono\ 11
+    else
         set guifont=Consolas:h10
     end
 else
