@@ -36,12 +36,12 @@ if has("gui_running")
     set lines=47 columns=100
     " Platform dependent settings.
     if has("mac")
-        set guifont=Monaco:h11
-    elseif has("linux")
-        set guifont=Droid\ Sans\ Mono\ 11
+        set guifont=Monaco:h10
+    elseif has("unix")
+        set guifont="Droid Sans Mono:h10"
     else
         set guifont=Consolas:h10
-    end
+    endif
 else
     colorscheme default
 endif

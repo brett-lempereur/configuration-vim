@@ -18,10 +18,6 @@
     path = bundle/vim-airline
     url = https://github.com/bling/vim-airline
     ignore = dirty
-[submodule "bundle/vim-golang"]
-    path = bundle/vim-golang
-    url = https://github.com/jnwhiteh/vim-golang
-    ignore = dirty
 [submodule "bundle/vim-fugitive"]
     path = bundle/vim-fugitive
     url = https://github.com/tpope/vim-fugitive
@@ -75,5 +71,10 @@
     url = https://github.com/derekwyatt/vim-scala
     ignore = dirty
 [submodule "bundle/vim-present"]
-	path = bundle/vim-present
-	url = https://github.com/corylanou/vim-present
+    path = bundle/vim-present
+    url = https://github.com/corylanou/vim-present
+    ignore = dirty
+[submodule "bundle/vim-go"]
+    path = bundle/vim-go
+    url = https://github.com/fatih/vim-go
+    ignore = dirty
